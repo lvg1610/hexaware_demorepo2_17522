@@ -8,4 +8,10 @@ public class Calculator
     {
          return x*x;
     }
+    public static divide(int x,int y)
+    {
+        if(y!=0)
+            return x/y;
+        throw new ArithmeticException();
+    }    
 }    
