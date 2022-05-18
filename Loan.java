@@ -5,4 +5,7 @@ public class Loan
     private double loanAmount;
     private int tenure;
     private double emi;
+    public Loan()
+    {
+    }
 }
